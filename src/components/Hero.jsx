@@ -1,7 +1,7 @@
 import React from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-import avatar from "../assets/Hero.png";
+import avatar from "../assets/Hero.png"; // Make your own 3D avatar at https://readyplayer.me/
 
 const Hero = () => {
   const social = [
@@ -26,9 +26,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex flex-col justify-start items-center p-5 text-center">
-      <h2 className="text-5xl  text-rose-600 uppercase font-bold">
-        Hristo Spasov
-      </h2>
+      <h2 className="text-5xl  text-rose-600 uppercase font-bold">Name here</h2>
       <h3 className="py-3 text-2xl">Front-End Developer</h3>
       <p className="max-w-xl font-light text-gray-500">
         Hello, welcome to my website. I'm a web developer.
@@ -56,7 +54,7 @@ const Hero = () => {
           className=" w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl pb-3"
         />
         <a
-          href="/src/assets/Hristo_Spasov.pdf"
+          href="PDF path here"
           download={true}
           className="flex items-center justify-center mt-5 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg"
         >
